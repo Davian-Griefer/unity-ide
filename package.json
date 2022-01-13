@@ -1,0 +1,73 @@
+{
+  "_from": "https://www.atom.io/api/packages/unity-ide/versions/1.0.0/tarball",
+  "_id": "unity-ide@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-xVzW9WPfRVeOIYnlizCMBLSxLG7zazBOdngRFhKGUoMoMqTB4COe5mrKpKn3lU7ejVH17aRdJdCCIzpEtpwOQQ==",
+  "_location": "/unity-ide",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/unity-ide/versions/1.0.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/unity-ide/versions/1.0.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/unity-ide/versions/1.0.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/unity-ide/versions/1.0.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/unity-ide/versions/1.0.0/tarball",
+  "_shasum": "9947c0dfc61d3baed065d77b66a822df398ff592",
+  "_spec": "https://www.atom.io/api/packages/unity-ide/versions/1.0.0/tarball",
+  "_where": "C:\\Users\\youss\\AppData\\Local\\Temp\\apm-install-dir-2022014-1124-ql4ze8.dcig",
+  "author": {
+    "name": "DavianGriefer",
+    "email": "daviangriefer@example.com"
+  },
+  "bugs": {
+    "url": "https://davprojects.com/atom/unity-ide/reportbugs/"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "api": {
+      "title": "API version",
+      "description": "Close and open atom to refresh (ctrl-shift-F5)",
+      "type": "string",
+      "default": "2021.4",
+      "enum": [
+        "2020.4",
+        "2020.1",
+        "5.1f"
+      ]
+    }
+  },
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  },
+  "deprecated": false,
+  "description": "Unity Game Engine C# Support for Atom",
+  "engines": {
+    "atom": ">=1.15.0 <2.0.0"
+  },
+  "homepage": "https://davprojects/atom/unity-ide/",
+  "keywords": [
+    "autocomplete",
+    "provider",
+    "unity"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "unity-ide",
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://davprojects/atom/unity-ide/unity-ide-2021-4.git"
+  },
+  "version": "1.0.0"
+}
