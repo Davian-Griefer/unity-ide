@@ -2,7 +2,7 @@
 
 Unity C# Support for Atom  
 
-![autocomplete-unity example](img/example.png)
+![Example01](img/example.png)
 
 Using [atom-autocomplete-boilerplate](https://github.com/lonekorean/atom-autocomplete-boilerplate) as base.  
 
